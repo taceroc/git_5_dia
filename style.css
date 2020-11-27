@@ -3,11 +3,11 @@
     /* border: solid 1px #000; */
 }
 /* alinea los dos cuadraditos en la pagina */
-.row{ 
+.team .row{ 
     text-align: center;
 }
 
-.column{ 
+.team .column{ 
     /* los cuadritos queda en una sola linea */
     display: inline-block; 
     vertical-align: middle;
@@ -15,22 +15,22 @@
     border-style: ridge;
     width: 24%;
 }
-.card{
+.team .card{
     /* centra todo lo del cuadro, pero yo solo quiero centra la imagen */
     text-align: center;
     background-color: #D4F0F0;
 }
-.container .title{
+.team .container .title{
     color: rgb(0,0,0, 0.5);
 }
-.container{
+.team .container{
     /* desalinea el texto y solo queda la imagen centrada y el texto a la izquierda */
     text-align: left;
     margin: auto ; 
     margin-bottom: 0px;
 }
 
-.button {
+.team .button {
     /* centra el boton */
     margin:auto ;
     display:block;
@@ -56,4 +56,52 @@ p{
 /* quitar lineado del link */
 a{
     text-decoration: none;
+}
+/* *********************** */
+
+.servicios .row{ 
+    text-align: center;
+}
+
+.servicios .column{ 
+    /* los cuadritos queda en una sola linea */
+    display: inline-block; 
+    vertical-align: middle;
+    text-align: left;
+    border-style: ridge;
+    width: 30%;
+}
+.servicios .card{
+    /* centra todo lo del cuadro, pero yo solo quiero centra la imagen */
+    text-align: center;
+    background-color: #f0dad4;
+}
+.servicios .container .title{
+    color: rgb(0,0,0, 0.5);
+}
+.servicios .container{
+    /* desalinea el texto y solo queda la imagen centrada y el texto a la izquierda */
+    text-align: left;
+    margin: auto ; 
+    margin-bottom: 0px;
+}
+
+.servicios .button {
+    /* centra el boton */
+    margin:auto ;
+    display:block;
+    /* ** */
+    background-color:rgb(0,0,0);
+    /* hace el boton al ancho */
+    width: 100%;
+    border: 0;
+    /* redondear boton */    
+    border-radius: 3px;
+    color: white;
+    /* que salga la manita */
+    cursor: pointer;
+    font-size: 12px; 
+    padding: 0;
+    height: 20px;
+    
 }
