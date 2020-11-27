@@ -2,55 +2,7 @@
 *{
     /* border: solid 1px #000; */
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0px;
-    margin: 0px;
-    padding: 0;
-    background-image: url(img_reto_extra_4/pexels-mudassir-ali-2680270.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 200%;
-}
-
-/* header ************* */
-header{
-    background-color:rgb(0,0,0, 0.2);
-}
-
-.menu_items ul{
-    list-style: none;
-    margin-top: 0px;
-}
-.menu_items ul li{
-    display: inline-block;
-    margin:0 70px 0 0;
-    vertical-align: middle;
-    border-style: solid;
-    border-color: #D4F0F0;
-    border-width: 1px;
-    border-radius: 3px;
-}
-
-.menu_items ul li a{
-    color: black;
-    text-decoration: none;
-}
-
-.menu_items ul .logo153{
-    margin-right: 4%;
-    margin-left: 0px;
-    border-style: none;
-}
-
-
-
-
-/* quienes somos ************* */
 /* alinea los dos cuadraditos en la pagina */
-#team{
-    margin-left: 1%;
-    margin-right: 1%;
-}
 .row{ 
     text-align: center;
 }
@@ -66,9 +18,7 @@ header{
 .card{
     /* centra todo lo del cuadro, pero yo solo quiero centra la imagen */
     text-align: center;
-    /* background-color: #D4F0F0; */
-    margin-left: 2%;
-    margin-right: 2%;
+    background-color: #D4F0F0;
 }
 .container .title{
     color: rgb(0,0,0, 0.5);
