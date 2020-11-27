@@ -18,6 +18,7 @@
 .card{
     /* centra todo lo del cuadro, pero yo solo quiero centra la imagen */
     text-align: center;
+    background-color: #D4F0F0;
 }
 .container .title{
     color: rgb(0,0,0, 0.5);
@@ -25,7 +26,8 @@
 .container{
     /* desalinea el texto y solo queda la imagen centrada y el texto a la izquierda */
     text-align: left;
-    margin: auto 10px;
+    margin: auto ; 
+    margin-bottom: 0px;
 }
 
 .button {
@@ -43,8 +45,14 @@
     /* que salga la manita */
     cursor: pointer;
     font-size: 12px; 
+    padding: 0;
+    height: 20px;
+    
 }
 
+p{
+    margin-bottom: 3px;
+}
 /* quitar lineado del link */
 a{
     text-decoration: none;
