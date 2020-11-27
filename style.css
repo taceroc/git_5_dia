@@ -13,6 +13,7 @@
     vertical-align: middle;
     text-align: left;
     border-style: ridge;
+    width: 24%;
 }
 .card{
     /* centra todo lo del cuadro, pero yo solo quiero centra la imagen */
@@ -42,4 +43,9 @@
     /* que salga la manita */
     cursor: pointer;
     font-size: 12px; 
+}
+
+/* quitar lineado del link */
+a{
+    text-decoration: none;
 }
